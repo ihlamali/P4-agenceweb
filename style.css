@@ -1052,4 +1052,10 @@ p {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+}
+a:focus-visible{
+    text-decoration: dashed;
+    border: 2px solid #364577;
+
 }
