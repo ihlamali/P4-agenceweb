@@ -2,9 +2,9 @@ $(function()
 {	
 	$("input,textarea").jqBootstrapValidation(
     {
-     	preventSubmit: true,
-     	submitSuccess: function($form, event)
-	 	{			
+    preventSubmit: true,
+    submitSuccess: function($form, event)
+	{			
 			if(!$form.attr('action')) // Check form doesnt have action attribute
 			{
 				event.preventDefault(); // prevent default submit behaviour
