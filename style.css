@@ -692,7 +692,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: black;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -866,7 +866,7 @@ p {
         background-attachment: scroll;
 
     }
-    
+
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -1048,13 +1048,24 @@ p {
         padding-left: 0;
         padding-right: 0;
     }
+    
+.imag-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+}
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
     text-align: center;
     }
-
+.imag-center img{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+}
 }
 a:focus-visible{
     text-decoration: dashed;
