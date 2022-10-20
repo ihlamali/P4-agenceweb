@@ -11,9 +11,10 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  *
  */
-! function(factory) {
-    "function" == typeof define && define.amd && define.amd.jQuery ? define(["jquery"], factory) : factory("undefined" != typeof module && module.exports ? require("jquery") : jquery)
-}(function($) {
+!function(factory) {
+    "function" === typeof define && define.amd && define.amd.jQuery ? define(["jquery"], factory) : factory("undefined" != typeof module && module.exports ? require("jquery") : jQuery)
+}
+(function($) {
     "use strict";
 
     function init(options) {
